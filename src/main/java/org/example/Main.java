@@ -8,16 +8,18 @@ import java.util.Scanner;
 
 import org.apache.commons.io.FilenameUtils;
 
+import static java.lang.System.*;
+
 public class Main {
     public static void main(String[] args) throws IOException {
         String path = "Задача ВС Java Сбер.csv";
         File csvFile = new File(path);
         if(csvFile.isFile() && FilenameUtils.getExtension(path).equals("csv")) {
             CityCsvReader cityCsvReader = new CityCsvReader(path);
-            cityCsvReader.readAndPrint();
+            cityCsvReader.getCities().forEach(city -> out.println(city.toString()));
         }
         else {
-            System.out.println("Введен некорректный путь до файла");
+            out.println("Введен некорректный путь до файла");
         }
 
     }

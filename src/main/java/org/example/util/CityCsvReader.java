@@ -4,6 +4,7 @@ import org.example.model.City;
 
 import java.io.*;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -22,13 +23,15 @@ public class CityCsvReader {
         this.path = path;
     }
 
-    public void readAndPrint() throws IOException {
+    public List<City> getCities() throws IOException {
+        List<City> cities = new ArrayList<>();
         Scanner csvReader = new Scanner(Paths.get(path));
         while(csvReader.hasNextLine()) {
             City city = parseCSVLine(csvReader.nextLine());
-            System.out.println(city.toString());
+            cities.add(city);
         }
         csvReader.close();
+        return cities;
     }
 
     private static City parseCSVLine(String line) {
