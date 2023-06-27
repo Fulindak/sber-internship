@@ -3,18 +3,28 @@ package org.example.model;
 import java.util.StringJoiner;
 
 public class City {
+    private Long id;
     private String name;
     private String region;
     private String district;
     private Long population;
     private String foundation;
 
-    public City(String name, String region, String district, Long population, String foundation) {
+    public City(Long id, String name, String region, String district, Long population, String foundation) {
+        this.id = id;
         this.name = name;
         this.region = region;
         this.district = district;
         this.population = population;
         this.foundation = foundation;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
