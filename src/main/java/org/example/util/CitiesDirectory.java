@@ -62,12 +62,14 @@ public class CitiesDirectory {
         return new City(id, name, region, district, population, foundation);
     }
 
+    //Сортировка без учета регистра
     public List<City> sortedByCityName() {
-        List<City> sortedList = cities;
+        List<City> sortedList = new ArrayList<>(cities);
         sortedList.sort((city1, city2) -> city1.getName().compareToIgnoreCase(city2.getName()));
         return sortedList;
     }
 
+    //Сортировка с учетом регистра
     public List<City> sortedByName() {
         return cities.stream()
                 .sorted(Comparator.comparing(City::getName))

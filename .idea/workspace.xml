@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f68da9-55d3-4692-9d3d-2ba287883f40" name="Changes" comment="City CSV Reader">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="93f68da9-55d3-4692-9d3d-2ba287883f40" name="Changes" comment="Tasks#1,2,3,4">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/CityCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/CitiesDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/CitiesDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/CitiesDirectory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687774577483</updated>
       <workItem from="1687774580474" duration="10771000" />
-      <workItem from="1687856043715" duration="9948000" />
+      <workItem from="1687856043715" duration="10280000" />
     </task>
     <task id="LOCAL-00001" summary="City CSV Reader">
       <created>1687781175315</created>
@@ -116,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687782160169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tasks#1,2,3,4">
+      <created>1687866142837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687866142837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="City CSV Reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="City CSV Reader" />
+    <MESSAGE value="Tasks#1,2,3,4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks#1,2,3,4" />
   </component>
 </project>
